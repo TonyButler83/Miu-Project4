@@ -1,0 +1,322 @@
+
+<!doctype html>  
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>Login & Password Saver</title>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- StyleSheets under here -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />
+	<link rel="stylesheet" href="css-b/style.css"/>
+	
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js-b/libs/modernizr.custom.min.js"></script>
+
+</head>
+
+<body>
+
+	<div data-role="page"  id="home" >
+		
+		<div data-role="header" data-theme="b">
+			<p>Login & Password Saver</p>
+		</div>
+		
+		<div data-role="content">
+	
+			<h4>An application that stores all of your login and password information.</h4>
+				<a href= "additem.html"><img src="images-b/lock1.png" alt="Password Icon" width="190" height="190" /></a> 
+			<br>
+			<h3>Choose A Category:</h3>
+			<br>
+		<div class="ui-grid-b">
+	<div class="ui-block-a"><a href= "#cpulogins"><img src="images-b/Computer_Logins.png"/><h5>Computer Logins</h5></a></div>
+	<div class="ui-block-b"><a href= "#email"><img src="images-b/Email.png" /><h5>Email Accounts</h5></a></div>
+	<div class="ui-block-c"><a href= "#financial"><img src="images-b/Financial.png" /><h5>Financial Info</h5></div>
+	<div class="ui-block-a"><a href= "#onlineshopping"><img src="images-b/Online_Shopping.png" /><h5>Online Shopping</h5></a></div>
+	<div class="ui-block-b"><a href= "#personal"><img src="images-b/Personal.png" /><h5>Personal Data</h5></a></div>
+	<div class="ui-block-c"><a href= "#other"><img src="images-b/Other.png" /><h5>Other Info</h5></a></div>
+</div>
+	</div>
+	<br>	
+
+		<div data-role="footer" data-theme="b" >
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+					<li><a href="additem.html" data-icon="plus" class="ui-btn-active">Add Item</a></li>
+					<li><a href="indexA.html" data-icon="grid" class="ui-btn-active">App A</a></li>
+					<li><a href="https://github.com/TonyButler83/Miu-Project3" data-icon="gear" class="ui-btn-active">GH-Pages</a></li>
+				</ul>
+			</div>
+		</div>
+	
+	</div>	
+
+	<div data-role="page" id="cpulogins">
+		
+		<div data-role="header" data-theme="b" >
+			<p>Computer Login Entries</p>
+		</div>
+
+	<div data-role="content">
+				
+			<div data-role="collapsible" data-collapsed="true" data-theme="b">
+				<h3>Apple ID</h3>
+				<p>(My login information for my Apple ID)</p>
+			</div>
+		
+			<div data-role="collapsible" data-collapsed="true" data-theme="b">
+				<h3>MacBook Pro login</h3>
+				<p>(My login information for my MacBook Pro)</p>
+			</div>
+		</div>
+	</div>
+	<div data-role="footer" data-theme="b" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+					<li><a href="additem.html" data-icon="plus" class="ui-btn-active">Add Item</a></li>
+					<li><a href="indexA.html" data-icon="grid" class="ui-btn-active">App A</a></li>
+					<li><a href="https://github.com/TonyButler83/Miu-Project2" data-icon="gear" class="ui-btn-active">GH-Pages</a></li>
+				</ul>
+			</div>
+		</div>
+	
+	<div data-role="page" id="email">
+			
+			<div data-role="header" data-theme="b" >
+				<p>Email Accounts</p>
+			</div>
+	
+			<div data-role="content">
+				<div data-role="collapsible" data-collapsed="true" data-theme="b">
+				<h3>Email Accounts</h3>
+				<p>(My login information for my Gmail account)</p>
+			</div>
+		</div>
+	<div data-role="footer" data-theme="b" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+					<li><a href="additem.html" data-icon="plus" class="ui-btn-active">Add Item</a></li>
+					<li><a href="indexA.html" data-icon="grid" class="ui-btn-active">App A</a></li>
+					<li><a href="https://github.com/TonyButler83/Miu-Project3" data-icon="gear" class="ui-btn-active">GH-Pages</a></li>
+				</ul>
+			</div>
+		</div>
+	
+	</div>	
+
+	<div data-role="page" id="financial">
+		
+		<div data-role="header" data-theme="b" >
+			<p>Financial Information</p>
+		</div>
+
+		<div data-role="content">
+				<div data-role="collapsible" data-collapsed="true" data-theme="b">
+				<h3>TurboTax information</h3>
+				<p>(My login information for my tax returns)</p>
+			</div>
+		</div>
+	<div data-role="footer" data-theme="b" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+					<li><a href="additem.html" data-icon="plus" class="ui-btn-active">Add Item</a></li>
+					<li><a href="indexA.html" data-icon="grid" class="ui-btn-active">App A</a></li>
+					<li><a href="https://github.com/TonyButler83/Miu-Project2" data-icon="gear" class="ui-btn-active">GH-Pages</a></li>
+				</ul>
+			</div>
+		</div>
+	
+	</div>	
+
+	<div data-role="page" id="onlineshopping">
+		
+		<div data-role="header" data-theme="b" >
+			<p>Online Shopping</p>
+		</div>
+
+		<div data-role="content">
+				<div data-role="collapsible" data-collapsed="true" data-theme="b">
+				<h3>Ebay Accounts</h3>
+				<p>(My login information for my Ebay account)</p>
+			</div>
+		</div>
+	<div data-role="footer" data-theme="b" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+					<li><a href="additem.html" data-icon="plus" class="ui-btn-active">Add Item</a></li>
+					<li><a href="indexA.html" data-icon="grid" class="ui-btn-active">App A</a></li>
+					<li><a href="https://github.com/TonyButler83/Miu-Project2" data-icon="gear" class="ui-btn-active">GH-Pages</a></li>
+				</ul>
+			</div>
+		</div>
+	
+	</div>	
+
+	<div data-role="page" id="personal">
+		
+		<div data-role="header" data-theme="b" >
+			<p>Personal Data</p>
+		</div>
+
+		<div data-role="content">
+				<div data-role="collapsible" data-collapsed="true" data-theme="b">
+				<h3>Personal data</h3>
+				<p>(My personal information)</p>
+			</div>
+		</div>
+	<div data-role="footer" data-theme="b" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+					<li><a href="additem.html" data-icon="plus" class="ui-btn-active">Add Item</a></li>
+					<li><a href="indexA.html" data-icon="grid" class="ui-btn-active">App A</a></li>
+					<li><a href="https://github.com/TonyButler83/Miu-Project3" data-icon="gear" class="ui-btn-active">GH-Pages</a></li>
+				</ul>
+			</div>
+		</div>
+	
+	</div>	
+
+	<div data-role="page" id="other">
+		
+		<div data-role="header" data-theme="b" >
+			<h2>Other Information</h2>
+		</div>
+
+		<div data-role="content">
+				<div data-role="collapsible" data-collapsed="true" data-theme="b">
+				<h3>Other information</h3>
+				<p>(My other information)</p>
+			</div>
+		</div>
+	<div data-role="footer" data-theme="b" data-position="fixed" data-id="home">
+			<div data-role="navbar">
+				<ul>
+					<div data-role="footer" data-theme="b" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+					<li><a href="additem.html" data-icon="plus" class="ui-btn-active">Add Item</a></li>
+					<li><a href="indexA.html" data-icon="grid" class="ui-btn-active">App A</a></li>
+					<li><a href="https://github.com/TonyButler83/Miu-Project3" data-icon="gear" class="ui-btn-active">GH-Pages</a></li>
+				</ul>
+			</div>
+		</div>
+	
+	</div>	
+
+	<div data-role="page" id="comingsoon">	
+		<div data-role="header" data-theme="b" >
+			<p>Coming Soon...</p>
+		</div>
+
+		<div data-role="content">
+			<p>Page Under Construction</p>
+		</div>
+				<div data-role="footer" data-theme="b" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+					<li><a href="additem.html" data-icon="plus" class="ui-btn-active">Add Item</a></li>
+					<li><a href="indexA.html" data-icon="grid" class="ui-btn-active">App A</a></li>
+					<li><a href="https://github.com/TonyButler83/Miu-Project3" data-icon="gear" class="ui-btn-active">GH-Pages</a></li>
+				</ul>
+			</div>
+		</div>
+	
+	</div>	
+
+	<div data-role="page" id="news">
+			
+			<div data-role="header" data-theme="b" >
+				<h2>News Stream</h2>
+			</div>
+	
+			<div data-role="content">
+				<ul data-role="listview">
+						<li><a href="#comingsoon">
+							<img src="images-b/Email.png" />
+							<h3>Gmail Account</h3>
+							<h4>My Login Information for my Gmail account.</h4>
+							<p>Added 2 hours ago</p>
+						</a>
+					</li>
+					<li>
+					<a href="#comingsoon">
+						<img src="images-b/Computer_Logins.png" />
+						<h2>Apple ID</h2>
+						<h6>My Login Information for my Apple ID</h6>
+						<p>Added 7 hours ago</p>
+					</a>
+				</li>
+					<li>
+					<a href="#comingsoon">
+						<img src="images-b/Financial.png" />
+						<h3>TurboTax info.</h3>
+						<h6>My Login Information for my tax returns</h6>
+						<p>Added 1 day ago</p>
+					</a>
+				</li>
+					<li>
+					<a href="#comingsoon">
+						<img src="images-b/Online_Shopping.png" />
+						<h3>Ebay Account</h3>
+						<h6>My Login Information for my Ebay account</h6>
+						<p>Added 2 days ago</p>
+					</a>
+				</li>
+					<li>
+					<a href="#comingsoon">
+						<img src="images-b/Personal.png" />
+						<h3>Personal Data</h3>
+						<h6>My Personal Information.</h6>
+						<p>Added 5 days ago</p>
+					</a>
+				</li>
+					<li>
+					<a href="#comingsoon">
+						<img src="images-b/Other.png" />
+						<h3>Other information</h3>
+						<h6>My other information.</h6>
+						<p>Added 9 days ago</p>
+					</a>
+				</li>
+				</ul>	
+			</div>
+		</div>
+		<div data-role="footer" data-theme="b" >
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+					<li><a href="additem.html" data-icon="plus" class="ui-btn-active">Add Item</a></li>
+					<li><a href="indexA.html" data-icon="grid" class="ui-btn-active">App A</a></li>
+					<li><a href="https://github.com/TonyButler83/Miu-Project3" data-icon="gear" class="ui-btn-active">GH-Pages</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	<!-- JavaScript under here -->
+	<script src="js-b/json.js" type="text/javascript"></script>
+	<script src="js-b/main.js" type="text/javascript"></script>
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+</body>
+</html>
+	
+	
